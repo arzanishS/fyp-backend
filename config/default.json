@@ -1,0 +1,4 @@
+ {
+     "mongoURI":"mongodb+srv://danial123:danial123@cluster0.q5vgo.mongodb.net/mern?retryWrites=true&w=majority",
+     "jwtToken":"mysecrettoken"
+ }
