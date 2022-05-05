@@ -4,11 +4,7 @@ const multerS3 = require( 'multer-s3' );
 const multer = require('multer');
 const path = require( 'path' );
 
-const s3 = new aws.S3({
-	accessKeyId: 'AKIA5AZIDRY4XWCABKO4',
-  secretAccessKey: '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',
-  Bucket: 'marketplaceproject'
-})
+
 
 const uploadsBusinessGallery = multer({
 	storage: multerS3({
